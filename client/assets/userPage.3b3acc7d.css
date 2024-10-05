@@ -1,0 +1,1 @@
+.sticky-table{max-height:100%}.q-table__top,.q-table__bottom,thead tr:first-child th{background-color:#e3e3e4;color:#000}thead tr th{position:sticky;z-index:1}thead tr:first-child th{position:sticky;top:0}.q-table--loading thead tr:last-child th{top:48px}tbody{scroll-margin-top:48px}legend:first-letter{text-transform:capitalize}
