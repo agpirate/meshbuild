@@ -1,0 +1,1 @@
+const i=()=>{let e={},u={activeItemID:null,activeUserID:null,userItemOwnership:!1,queryOperator:"or",otherQueries:{}};async function t(r=u){return r.userItemOwnership||(e.userID=r.activeUserID),e.saleitID=r.activeItemID,e=Object.assign(e,r.otherQueries),e.queryOperator="-"+r.queryOperator,e=Object.assign(e,r.otherQueries),e}return{queryBuilder_foreign:t}};export{i as u};
